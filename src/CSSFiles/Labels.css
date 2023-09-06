@@ -1,0 +1,16 @@
+.labels {
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   padding: 5px;
+   color: white;
+   background-color: grey;
+   width: fit-content;
+   font-size: 14px;
+   border-radius: 40px;
+}
+.labels svg {
+   height: 15px;
+   width: 15px;
+   cursor: pointer;
+}

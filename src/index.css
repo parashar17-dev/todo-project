@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+body {
+   padding: 0px;
+   margin: 0px;
+   background-image: linear-gradient(rgba(48, 96, 240), rgba(16, 224, 210));
+   height: 100vh;
+}
+/* Styling Navbar */
+.navbar {
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+}
+.navleft {
+   display: flex;
+   align-items: center;
+}
+.left {
+   height: auto;
+   font-size: 17px;
+   padding: 0px 10px 0px 10px;
+}
+.left1 {
+   font-size: 30px;
+   font-family: 'Rubik Iso', cursive;
+   display: flex;
+   gap: 20px;
+   align-items: center;
+}
+.star {
+   font-size: 20px;
+   padding-right: 10px;
+}
+.left2 {
+   padding-left: 0px;
+   padding-left: 10px;
+   border-right: 2px solid rgba(0, 0, 0, 0.4);
+   border-left: 2px solid rgba(0, 0, 0, 0.4);
+}
+.left3 {
+   display: flex;
+   gap: 15px;
+}
+.navright {
+   font-size: 17px;
+   display: flex;
+   align-items: center;
+   padding-right: 10px;
+   gap: 10px;
+}
+
+/* Styling boards*/
+.boards {
+   display: flex;
+   justify-content: space-between;
+}
+.board {
+   background-color: rgb(224, 227, 226);
+   display: flex;
+   width: 25%;
+   align-self: flex-start;
+   flex-direction: column;
+   max-height: 90vh;
+   overflow: auto;
+   margin: 10px;
+   border-radius: 5px;
+}
+.board-dark {
+   background-color: rgb(182, 182, 182);
+}
+.board::-webkit-scrollbar {
+   -webkit-appearance: none;
+}
+.board::-webkit-scrollbar:vertical {
+   width: 8px;
+}
+.board::-webkit-scrollbar-thumb {
+   background-color: rgb(176, 171, 171);
+}
+.boardtop {
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+}
+.boardtitle {
+   font-size: 18px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.boardcards {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding: 10px;
+}
+/*Styling Cards*/
+.card {
+   background-color: aliceblue;
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+   border-radius: 5px;
+}
+.card:hover {
+   cursor: pointer;
+}
+.cardimg {
+   width: 100%;
+   border-radius: 5px 5px 0px 0px;
+}
+.cardtitle {
+   padding: 0px 10px 10px 10px;
+   display: flex;
+}
+.cardFooter {
+   display: flex;
+   gap: 15px;
+}
+.boardfooter {
+   padding: 10px;
+   color: rgb(94, 93, 93);
+}
+.boardfooter:hover {
+   cursor: pointer;
+}
+.opacity-25 {
+   opacity: 0.25;
+}

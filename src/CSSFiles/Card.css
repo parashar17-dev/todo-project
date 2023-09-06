@@ -1,0 +1,42 @@
+.cardLabels {
+   margin: 5px;
+   display: flex;
+   gap: 5px;
+   flex-wrap: wrap;
+}
+.cardtitle {
+}
+.cardFooter {
+   align-items: center;
+   padding: 0px 10px 10px 10px;
+}
+.card_footer_svg {
+   display: flex;
+   color: rgb(111, 108, 108);
+   align-items: center;
+   font-size: 13px;
+   margin: 0px;
+   gap: 3px;
+}
+.cardFooter svg {
+   height: 16px;
+   width: 16px;
+}
+.cardDelete {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 10px;
+}
+.cardDelete button {
+   font-size: 15px;
+   padding: 7px;
+   color: white;
+   border-radius: 10px;
+   background-color: rgb(193, 87, 87);
+   border: none;
+   cursor: pointer;
+}
+.card-progress {
+   margin-right: 5px;
+}
